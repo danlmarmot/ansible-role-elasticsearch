@@ -1,0 +1,12 @@
+---
+role_name: elasticsearch
+
+es_pkg_name: elasticsearch
+es_pkg_version: 2.2.1
+
+local_apt_repo: /usr/local/deb-repo
+
+# For /etc/elasticsearch/elasticsearch.yml
+es:
+  network_host: localhost
+  http_port: 9200
