@@ -17,7 +17,7 @@ A Vagrant/VirtualBox environment is provided in the /examples directory.  To get
 
 ### Additional notes
 
-For Vagrant installs, dependencies (such as the JDK tarball or Elasticsearch Debian package) are downloaded once and cached locally.
-Each role in this Ansible playbook will check the version of each application before installing, and will not re-install if the installed version is the desired version.  This speeds up reprovisioning.
-To reprovision, use the 'vagrant provision' command.
+- For Vagrant installs, dependencies (such as the JDK tarball or the Elasticsearch Debian package) are downloaded once and cached locally.
+- Each role in this Ansible playbook will check the version of each application before installing, and will not re-install if the installed version is the desired version.  This speeds up reprovisioning.
+- To reprovision, use the 'vagrant provision' command.
 
