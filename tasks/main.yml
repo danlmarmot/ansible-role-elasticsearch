@@ -55,6 +55,7 @@
 
 - name: Set elasticsearch to start at boot
   service:
+    name: elasticsearch
     enabled: yes
 
 - name: Update elasticsearch.yml config file
