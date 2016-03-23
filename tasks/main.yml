@@ -53,6 +53,10 @@
   with_items:
     - elasticsearch
 
+- name: Set elasticsearch to start at boot
+  service:
+    enabled: yes
+
 - name: Update elasticsearch.yml config file
   template:
     src: elasticsearch.yml.j2
